@@ -1,4 +1,4 @@
-def Sentiments():
+def compute_tweets():
     try:
         keywords = input('Enter keywords filename: ')
         read = open(keywords, 'r', encoding='utf-8')
